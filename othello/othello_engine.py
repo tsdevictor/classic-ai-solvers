@@ -1,9 +1,5 @@
 import sys; args = sys.argv[1:]
 
-# TODO: iterative deepening
-# TODO: stability when surrounded by enemy
-# TODO: frontier
-
 class Strategy:
     def __init__(self):
         self.logging = True
