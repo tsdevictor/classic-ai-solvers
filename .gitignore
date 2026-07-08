@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# IDEs
+.idea/
+.vscode/
+
+# Java/build outputs
+out/
+build/
+dist/
+*.class
+
+# Logs
+*.log
