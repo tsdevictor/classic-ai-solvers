@@ -19,7 +19,7 @@ Core ideas:
 From the repository root:
 
 ```bash
-python sudoku/sudoku_solver.py examples/sudoku/easy.txt
+python sudoku/sudoku_solver.py sudoku/examples/easy.txt
 
 The solver expects a text file where each line is one Sudoku puzzle. Empty cells should be represented with ..
 
