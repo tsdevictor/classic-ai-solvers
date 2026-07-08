@@ -58,3 +58,12 @@ Next steps:
 2. Add tests for board logic and puzzle validation.
 3. Add benchmarks for search depth and solve time.
 4. Refactor the strongest implementations into importable modules.
+
+
+## Future improvements
+
+- Add iterative deepening to Othello search.
+- Add stronger Othello stability/frontier heuristics.
+- Add clean command-line entry points for each solver.
+- Add tests for board logic and puzzle validation.
+- Add benchmarks for search depth and solve time.
