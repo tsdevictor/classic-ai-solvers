@@ -3,8 +3,8 @@ import re
 import time
 
 
-# args = ['dctEckel.txt', '14x16', '108', 'h0x6Ale', 'H3x2', 'h2x4', 'v4x5', 'v7x5', 'V9x7', 'V9x5']
-args = ['dctEckel.txt', '21x21', '75']
+# Example arguments:
+# args = ['crosswords/examples/tiny_dictionary.txt', '3x3', '0']
 
 
 def parse_args():
