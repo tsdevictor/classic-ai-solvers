@@ -48,22 +48,14 @@ Main folders:
 - `chess/gui/`
 - `chess/pgn/`
 
-## Current Status
+## Current status
 
-This is a consolidation repo. The first cleanup pass preserves the original work while moving older versions and experiments into `archive/`.
-
-Next steps:
-
-1. Add clean command-line entry points for each solver.
-2. Add tests for board logic and puzzle validation.
-3. Add benchmarks for search depth and solve time.
-4. Refactor the strongest implementations into importable modules.
-
+This is a consolidation repo. The strongest versions of several classic AI/search projects have been moved into a cleaner public structure, while older experiments are preserved under `archive/`.
 
 ## Future improvements
 
-- Add iterative deepening to Othello search.
-- Add stronger Othello stability/frontier heuristics.
 - Add clean command-line entry points for each solver.
-- Add tests for board logic and puzzle validation.
+- Add more tests for board logic and puzzle validation.
 - Add benchmarks for search depth and solve time.
+- Refactor the strongest implementations into importable modules.
+- Add iterative deepening and stronger stability/frontier heuristics to Othello.
